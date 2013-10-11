@@ -3,7 +3,7 @@ Foi utilizado o sistema de um grande ecommerce brasileiro como modelo.
 
 O projeto é baseado em um projeto criado por Batian Krol disponível em:
   * http://blog.codecentric.de/en/2013/08/cucumber-setup-basics/ - Part I
-  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeis - Part II
+  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeist/ - Part II
 
 Para realizar o Set Up do projeto, será necessário seguir as instruções 
 disponíveis em (somente não precisa clonar o projeto no git):
@@ -16,7 +16,7 @@ Após a instalação e SetUp do sistema, basta executar
 
 This project is based on Bastian Krol Cucumber Tutorial available in:
   * http://blog.codecentric.de/en/2013/08/cucumber-setup-basics/ - Part I
-  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeis - Part II
+  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeist/ - Part II
 
 To get this project you will need to follow the same setup proposed in 
 (You don't need to clone Batian Krol code from git):
