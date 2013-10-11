@@ -1,1 +1,28 @@
-This is a Pratical test about cucumber and e-commerce
+Este é um tutorial sobre Cucumber, Capybara e outras ferramentas de BDD.
+Foi utilizado o sistema de um grande ecommerce brasileiro como modelo.
+
+O projeto é baseado em um projeto criado por Batian Krol disponível em:
+  * http://blog.codecentric.de/en/2013/08/cucumber-setup-basics/ - Part I
+  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeis - Part II
+
+Para realizar o Set Up do projeto, será necessário seguir as instruções 
+disponíveis em (somente não precisa clonar o projeto no git):
+  * https://gist.github.com/basti1302/6039716 - Linux
+  * https://gist.github.com/basti1302/6049597 - Windows
+
+Após a instalação e SetUp do sistema, basta executar
+  $ bundle exec cucumber # para utilizar o PhantomJS
+  $ IN_BROWSER=true bundle exec cucumber # para utilizar o Selenium (é preciso ter o firefox instalado)
+
+This project is based on Bastian Krol Cucumber Tutorial available in:
+  * http://blog.codecentric.de/en/2013/08/cucumber-setup-basics/ - Part I
+  * http://blog.codecentric.de/en/2013/08/cucumber-capybara-poltergeis - Part II
+
+To get this project you will need to follow the same setup proposed in 
+(You don't need to clone Batian Krol code from git):
+  * https://gist.github.com/basti1302/6039716 - Linux
+  * https://gist.github.com/basti1302/6049597 - Windows
+
+After Setting Up the environment, to execute:
+  $ bundle exec cucumber # para utilizar o PhantomJS
+  $ IN_BROWSER=true bundle exec cucumber # para utilizar o Selenium (é preciso ter o firefox instalado)
