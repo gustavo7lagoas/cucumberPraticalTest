@@ -6,7 +6,7 @@ end
 
 When(/^I search for "(.*?)"$/) do |product|
   fill_in 'sli_search_1', :with => product
-  click_on 'ctl00_Conteudo_PaginaSistemaArea1_ctl04_btnOK'
+  click_on 'ctl00_Conteudo_PaginaSistemaArea1_ctl00_btnOK'
 end
 
 Then(/^I should see "(.*?)"$/) do |product|
@@ -36,7 +36,7 @@ end
 Given(/^I want to buy the "(.*?)" "(.*?)"$/) do |criteria, product|
   fill_in 'sli_search_1', :with => product
   # Search
-  click_on 'ctl00_Conteudo_PaginaSistemaArea1_ctl04_btnOK'
+  click_on 'ctl00_Conteudo_PaginaSistemaArea1_ctl00_btnOK'
   # Select Category
   find(:xpath, '//*[@id="slicategoryfacetpres"]/h2[1]/a').click
   # Select Sub Category
@@ -51,3 +51,4 @@ end
 Then(/^I have it in my shopping trolley$/) do
   page.should have_content @selected_product
 end
+

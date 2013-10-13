@@ -5,7 +5,6 @@ Feature: Search for Product
 
 Scenario: Search for a product
 	Given I am surfing in my favorite ecommerce
-	When I search for "IPad"
+	When I search for "Ipad"
 	Then I should see "Ipad"
-	And I should see "Ipad Mini"
 	
