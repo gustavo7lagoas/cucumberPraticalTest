@@ -1,11 +1,18 @@
-Feature: Search for Product
-	In order to get updated about product prices
-	As a online shopper
-	I want to check prices for new products
+Feature: Search suggestion 
+  In order to make easier to shoppers to find products
+  As a ecommerce
+  I want to make suggestions about shoppers searches
 
-Scenario: Search for a product
-	Given I am surfing in my favorite ecommerce
-	When I search for "IPad"
-	Then I should see "Ipad"
-	And I should see "Ipad Mini"
-	
+Scenario: Search suggestion 
+  Given I am surfing in my favorite ecommerce
+  When I search for "PS3"
+  Then I should see the search suggestions
+    | suggestions   |
+    | Console Ps3   |
+    | Jogos Ps3     |
+    | Console       |
+    | Playstation 3 |
+    | Gta 5         |
+    | Play 3        |
+    | Gta V         |
+    | Playstation   |

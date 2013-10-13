@@ -27,8 +27,4 @@ end
 Capybara.default_wait_time = 120
 
 # Configure base URLs
-$ecommerce_base_url = 'http://www.pontofrio.com.br/'
-
-
-	
-	
+# $ecommerce_base_url = 'http://www.pontofrio.com.br/'
