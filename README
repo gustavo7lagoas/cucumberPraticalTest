@@ -26,3 +26,4 @@ To get this project you will need to follow the same setup proposed in
 After Setting Up the environment, to execute:
   $ bundle exec cucumber # para utilizar o PhantomJS
   $ IN_BROWSER=true bundle exec cucumber # para utilizar o Selenium (é preciso ter o firefox instalado)
+
